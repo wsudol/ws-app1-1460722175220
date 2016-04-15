@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: ws-app1
+  host: ws-app1
+  disk_quota: 1024M
+  services:
+  - OTC1-MonitoringAndAnalytics
+  - ws-app1-DataCache
